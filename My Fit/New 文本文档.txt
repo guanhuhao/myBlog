@@ -1,0 +1,10 @@
+model_provider = "guda"
+model = "gpt-5-codex"
+model_reasoning_effort = "high"
+network_access = "enabled"
+disable_response_storage = true
+[model_providers.guda]
+name = "guda"
+base_url = "https://cc.guda.studio/v1"
+wire_api = "responses"
+env_key = "guda"
